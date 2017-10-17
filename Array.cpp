@@ -74,7 +74,7 @@ template <class T>
 	int main () {
 
 	Array<Animal> a;
-	cout << a[2]->speak() << endl;  // Prints "meow" or "woof"
+	cout << a[2] speak() << endl;  // Prints "meow" or "woof"
 	a.fill(speak());
 return 0;
 }
